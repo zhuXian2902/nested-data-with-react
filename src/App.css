@@ -1,5 +1,23 @@
 /** @format */
 
+body {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI';
+	font-size: 30px;
+	background-color: rgb(253, 253, 253);
+	font-size: 600;
+	height: 100vh;
+	width: 100vw;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #000;
+}
+
 .list {
 	list-style: none;
+	cursor: pointer;
 }

@@ -2,9 +2,7 @@
 
 import React, { Component } from 'react';
 import './App.css';
-import Level1 from './components/Level1';
-import Level2 from './components/Level2';
-import Documents from './components/Documents';
+import Folder from './components/Folder';
 
 class App extends Component {
 	constructor(props) {
@@ -60,41 +58,44 @@ class App extends Component {
 		// console.log(this.state);
 		// console.log(this.state.objState[this.state.currId]);
 		return (
-			<ul>
-				<div id="C" className="list" onClick={this.toggle}>
-					Local Disk (C:)
-					{this.state.objState.C && (
-						<Documents
-							toggle={this.toggle}
-							files={this.state.obj.C}
-							obj={this.state.obj}
-							objState={this.state.objState}
-						></Documents>
-					)}
-				</div>
-				<div id="D" className="list" onClick={this.toggle}>
-					Local Disk (:D)
-					{this.state.objState.D && (
-						<Documents
-							toggle={this.toggle}
-							files={this.state.obj.D}
-							obj={this.state.obj}
-							objState={this.state.objState}
-						></Documents>
-					)}
-				</div>
-				<div id="E" className="list" onClick={this.toggle}>
-					Local Disk (:E)
-					{this.state.objState.E && (
-						<Documents
-							toggle={this.toggle}
-							files={this.state.obj.E}
-							obj={this.state.obj}
-							objState={this.state.objState}
-						></Documents>
-					)}
-				</div>
-			</ul>
+			<div>
+				<h1>Nested Data Representation</h1>
+				<ul className="container">
+					<div id="C" className="list" onClick={this.toggle}>
+						{this.state.objState.C ? 'v Local Disk (C:)' : '> Local Disk (C:)'}
+						{this.state.objState.C && (
+							<Folder
+								toggle={this.toggle}
+								files={this.state.obj.C}
+								obj={this.state.obj}
+								objState={this.state.objState}
+							></Folder>
+						)}
+					</div>
+					<div id="D" className="list" onClick={this.toggle}>
+						{this.state.objState.D ? 'v Local Disk (D:)' : '> Local Disk (D:)'}
+						{this.state.objState.D && (
+							<Folder
+								toggle={this.toggle}
+								files={this.state.obj.D}
+								obj={this.state.obj}
+								objState={this.state.objState}
+							></Folder>
+						)}
+					</div>
+					<div id="E" className="list" onClick={this.toggle}>
+						{this.state.objState.E ? 'v Local Disk (E:)' : '> Local Disk (E:)'}
+						{this.state.objState.E && (
+							<Folder
+								toggle={this.toggle}
+								files={this.state.obj.E}
+								obj={this.state.obj}
+								objState={this.state.objState}
+							></Folder>
+						)}
+					</div>
+				</ul>
+			</div>
 		);
 	}
 }

@@ -1,9 +1,9 @@
 /** @format */
 
 import React, { Component } from 'react';
-import Level2 from './Level2';
+import File from './File';
 
-class Documents extends Component {
+class Folder extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -32,8 +32,9 @@ class Documents extends Component {
 					key={file.val}
 					id={file.id}
 				>
+					{this.props.objState[file.id] ? 'v  ' : '>  '}
 					{file.val}
-					<Level2
+					<File
 						isOpen={this.props.objState[file.id]}
 						files={this.state.obj[file.id]}
 					/>
@@ -44,4 +45,4 @@ class Documents extends Component {
 	}
 }
 
-export default Documents;
+export default Folder;

@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-const Level2 = (props) => {
+const File = (props) => {
 	// console.log(props);
 
 	let list = props.files.map((file) => (
@@ -15,4 +15,4 @@ const Level2 = (props) => {
 	return <ul>{props.isOpen && list}</ul>;
 };
 
-export default Level2;
+export default File;
