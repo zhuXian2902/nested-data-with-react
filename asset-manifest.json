@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/File-System/static/css/main.ed07f662.chunk.css",
-    "main.js": "/File-System/static/js/main.a6f48812.chunk.js",
-    "main.js.map": "/File-System/static/js/main.a6f48812.chunk.js.map",
-    "runtime-main.js": "/File-System/static/js/runtime-main.dbf0434d.js",
-    "runtime-main.js.map": "/File-System/static/js/runtime-main.dbf0434d.js.map",
-    "static/js/2.1a0cb5b9.chunk.js": "/File-System/static/js/2.1a0cb5b9.chunk.js",
-    "static/js/2.1a0cb5b9.chunk.js.map": "/File-System/static/js/2.1a0cb5b9.chunk.js.map",
-    "index.html": "/File-System/index.html",
-    "precache-manifest.8504d91f91e65fde08bbed1ca3e84992.js": "/File-System/precache-manifest.8504d91f91e65fde08bbed1ca3e84992.js",
-    "service-worker.js": "/File-System/service-worker.js",
-    "static/css/main.ed07f662.chunk.css.map": "/File-System/static/css/main.ed07f662.chunk.css.map",
-    "static/js/2.1a0cb5b9.chunk.js.LICENSE.txt": "/File-System/static/js/2.1a0cb5b9.chunk.js.LICENSE.txt"
+    "main.css": "/nested-data-with-react/static/css/main.ed07f662.chunk.css",
+    "main.js": "/nested-data-with-react/static/js/main.30f488d1.chunk.js",
+    "main.js.map": "/nested-data-with-react/static/js/main.30f488d1.chunk.js.map",
+    "runtime-main.js": "/nested-data-with-react/static/js/runtime-main.2bc3fbd8.js",
+    "runtime-main.js.map": "/nested-data-with-react/static/js/runtime-main.2bc3fbd8.js.map",
+    "static/js/2.1a0cb5b9.chunk.js": "/nested-data-with-react/static/js/2.1a0cb5b9.chunk.js",
+    "static/js/2.1a0cb5b9.chunk.js.map": "/nested-data-with-react/static/js/2.1a0cb5b9.chunk.js.map",
+    "index.html": "/nested-data-with-react/index.html",
+    "precache-manifest.ce712627758ce40d64269c06e7748658.js": "/nested-data-with-react/precache-manifest.ce712627758ce40d64269c06e7748658.js",
+    "service-worker.js": "/nested-data-with-react/service-worker.js",
+    "static/css/main.ed07f662.chunk.css.map": "/nested-data-with-react/static/css/main.ed07f662.chunk.css.map",
+    "static/js/2.1a0cb5b9.chunk.js.LICENSE.txt": "/nested-data-with-react/static/js/2.1a0cb5b9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dbf0434d.js",
+    "static/js/runtime-main.2bc3fbd8.js",
     "static/js/2.1a0cb5b9.chunk.js",
     "static/css/main.ed07f662.chunk.css",
-    "static/js/main.a6f48812.chunk.js"
+    "static/js/main.30f488d1.chunk.js"
   ]
 }
