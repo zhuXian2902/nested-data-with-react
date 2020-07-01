@@ -1,6 +1,6 @@
 <!-- @format -->
 
-# https://zhuxian2902.github.io/nested-data-with-react/
+# https://zhuXian2902.github.io/nested-data-with-react/
 
 # nested data using react
 
